@@ -1,0 +1,21 @@
+Missão 8: Acessando os Registros de Alunos
+
+def exibir_nomes():
+    nomes = ("Ana", "Bruno", "Carla", "Daniel", "Eduardo")
+    return nomes[0], nomes[-1]
+primeiro, ultimo = exibir_nomes()
+print(f"Primeiro nome: {primeiro}, Último nome: {ultimo}")
+
+Missão 9: Calculando Dobro de um Número
+
+def dobro(numero):
+    return numero * 2
+numero = int(input("Digite um número: "))
+print(f"O dobro de {numero} é {dobro(numero)}")
+
+Missão 10: Contando Letras
+
+def contar_letras(nome):
+    return len(nome)
+nome = input("Digite um nome: ")
+print(f"O nome {nome} tem {contar_letras(nome)} letras.")
