@@ -1,0 +1,7 @@
+def verificar_senha(senha):
+    if senha == "Vainaweb123":
+        return "Senha correta!"
+    else:
+        return "Senha incorreta."
+senha = input("Digite a senha: ")
+print(verificar_senha(senha))
